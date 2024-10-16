@@ -1,0 +1,47 @@
+\chapter{p3 = 14 (1 graphs)}
+\newpage\begin{figure}
+  \begin{tikzpicture}
+      \draw
+        (0.0:2) node (0){0}
+        (60.0:2) node (1){1}
+        (120.0:2) node (2){2}
+        (180.0:2) node (3){3}
+        (240.0:2) node (4){4}
+        (300.0:2) node (5){5};
+      \begin{scope}[-]
+        \draw (0) to (2);
+        \draw (0) to (3);
+        \draw (0) to (4);
+        \draw (1) to (3);
+        \draw (1) to (4);
+        \draw (2) to (5);
+        \draw (3) to (5);
+        \draw (4) to (5);
+      \end{scope}
+    \end{tikzpicture}
+\end{figure}
+\begin{itemize}
+\item signature: 011100110001011
+\item g: Graph with 6 nodes and 8 edges
+\item order: 6
+\item size: 8
+\item max degree: 3
+\item degrees: 2,2,3,3,3,3
+\item is tree: 0
+\item is bipartite: 1
+\item has bridge: 0
+\item is chordal: 0
+\item is complete: 0
+\item min cycle basis weight: 12
+\item min cycle basis size: 3
+\item diameter: 3
+\item radius: 2
+\item is eulerian: 0
+\item is planar: 1
+\item number of faces: 4
+\item is regular: 0
+\item p3: 14
+\item p4: 4
+\item property hash: 95839c0fac0daec3d2dd1c483115b25ce7a27c07159808bcc92b54b029886fd6
+\end{itemize}
+\newpage

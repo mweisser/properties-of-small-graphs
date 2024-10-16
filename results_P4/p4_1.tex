@@ -1,0 +1,40 @@
+\chapter{p4 = 1 (1 graphs)}
+\newpage\begin{figure}
+  \begin{tikzpicture}
+      \draw
+        (0.0:2) node (0){0}
+        (90.0:2) node (1){1}
+        (180.0:2) node (2){2}
+        (270.0:2) node (3){3};
+      \begin{scope}[-]
+        \draw (0) to (2);
+        \draw (1) to (3);
+        \draw (2) to (3);
+      \end{scope}
+    \end{tikzpicture}
+\end{figure}
+\begin{itemize}
+\item signature: 010011
+\item g: Graph with 4 nodes and 3 edges
+\item order: 4
+\item size: 3
+\item max degree: 2
+\item degrees: 1,1,2,2
+\item is tree: 1
+\item is bipartite: 1
+\item has bridge: 1
+\item is chordal: 1
+\item is complete: 0
+\item min cycle basis weight: 0
+\item min cycle basis size: 0
+\item diameter: 3
+\item radius: 2
+\item is eulerian: 0
+\item is planar: 1
+\item number of faces: 1
+\item is regular: 0
+\item p3: 2
+\item p4: 1
+\item property hash: d849839d310e306d738686b907d78909e2faa3cd5b3af56859e93388ee54a31a
+\end{itemize}
+\newpage

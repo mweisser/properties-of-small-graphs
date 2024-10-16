@@ -1,0 +1,56 @@
+\chapter{p3 = 42 (1 graphs)}
+\newpage\begin{figure}
+  \begin{tikzpicture}
+      \draw
+        (0.0:2) node (0){0}
+        (45.0:2) node (1){1}
+        (90.0:2) node (2){2}
+        (135.0:2) node (3){3}
+        (180.0:2) node (4){4}
+        (225.0:2) node (5){5}
+        (270.0:2) node (6){6}
+        (315.0:2) node (7){7};
+      \begin{scope}[-]
+        \draw (0) to (3);
+        \draw (0) to (4);
+        \draw (0) to (5);
+        \draw (0) to (6);
+        \draw (1) to (3);
+        \draw (1) to (4);
+        \draw (1) to (5);
+        \draw (1) to (6);
+        \draw (2) to (4);
+        \draw (2) to (5);
+        \draw (2) to (6);
+        \draw (3) to (7);
+        \draw (4) to (7);
+        \draw (5) to (7);
+        \draw (6) to (7);
+      \end{scope}
+    \end{tikzpicture}
+\end{figure}
+\begin{itemize}
+\item signature: 0011110011110011100001001011
+\item g: Graph with 8 nodes and 15 edges
+\item order: 8
+\item size: 15
+\item max degree: 4
+\item degrees: 3,3,4,4,4,4,4,4
+\item is tree: 0
+\item is bipartite: 1
+\item has bridge: 0
+\item is chordal: 0
+\item is complete: 0
+\item min cycle basis weight: 32
+\item min cycle basis size: 8
+\item diameter: 3
+\item radius: 2
+\item is eulerian: 0
+\item is planar: 0
+\item number of faces: 9
+\item is regular: 0
+\item p3: 42
+\item p4: 9
+\item property hash: 2767e58427e6dc5010b9fd4862c6b63df2baaaf37106ac26aabf55c26021043b
+\end{itemize}
+\newpage
